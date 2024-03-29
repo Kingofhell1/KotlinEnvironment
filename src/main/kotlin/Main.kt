@@ -28,14 +28,14 @@ fun main() {
                             if (type == "phone") {
                                 if (value.matches(Regex("""^\+?\d+[\d-]*${'$'}"""))) {
                                     contacts.add(Pair(name, value))
-                                    println("Контакт успешно добавлен.")
+                                    println("Контакт успешно добавлен. $contacts")
                                 } else {
                                     println("Некорректный номер телефона.")
                                 }
                             } else if (type == "email") {
                                 if (value.matches(Regex("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"))) {
                                     contacts.add(Pair(name, value))
-                                    println("Контакт успешно добавлен.")
+                                    println("Контакт успешно добавлен. $contacts")
                                 } else {
                                     println("Некорректный адрес электронной почты.")
                                 }
