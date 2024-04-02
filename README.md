@@ -7,7 +7,7 @@ add <Имя> phone <Номер телефона>
 add <Имя> email <Адрес электронной почты>
 
 После выполнения команды, кроме команды exit, программа ждёт следующую команду,
-[Ссылка на первый семинар](https://github.com/Kingofhell1/KotlinEnvironment/tree/main/src/main/kotlin)
+[Ссылка на первый семинар](https://github.com/Kingofhell1/KotlinEnvironment/blob/main/src/main/kotlin/KotlinEnvironmentLesson1/Main.kt)
 
  * Seminar_2
 
@@ -25,4 +25,4 @@ add <Имя> email <Адрес электронной почты>
 - Читаем команду с помощью функции readCommand
 - Выводим на экран получившийся экземпляр Command
 - Если isValid для команды возвращает false, выводим help. Если true, обрабатываем команду внутри when.
-[Ссылка на второй семинар]()
+[Ссылка на второй семинар](https://github.com/Kingofhell1/KotlinEnvironment/tree/main/src/main/kotlin/KotlinEnvironmentLesson2)
