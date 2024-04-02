@@ -1,3 +1,5 @@
+package KotlinEnvironmentLesson1
+
 fun main() {
     val contacts = ArrayList<Pair<String, String>>()
             while (true) {
